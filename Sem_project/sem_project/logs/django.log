@@ -1,0 +1,7 @@
+Watching for file changes with StatReloader
+Результат = Tails
+"GET /coin HTTP/1.1" 200 5
+Результат = Heads
+"GET /coin HTTP/1.1" 200 5
+Результат = Heads
+"GET /coin HTTP/1.1" 200 5

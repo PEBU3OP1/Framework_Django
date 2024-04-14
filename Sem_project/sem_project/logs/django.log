@@ -5,3 +5,309 @@ Watching for file changes with StatReloader
 "GET /coin HTTP/1.1" 200 5
 Результат = Heads
 "GET /coin HTTP/1.1" 200 5
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5
+Результат = Heads
+"GET /coin HTTP/1.1" 200 5
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5
+"GET /game HTTP/1.1" 200 5
+"GET /game HTTP/1.1" 200 5
+"GET /game HTTP/1.1" 200 5
+"GET /game HTTP/1.1" 200 5
+"GET /game HTTP/1.1" 200 5
+"GET /game HTTP/1.1" 200 5
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /game
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 46, in game
+    return HttpResponse(game)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\http\response.py", line 376, in __init__
+    self.content = content
+    ^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\http\response.py", line 408, in content
+    content = self.make_bytes(value)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\http\response.py", line 319, in make_bytes
+    return str(value).encode(self.charset)
+           ^^^^^^^^^^
+TypeError: __str__ returned non-string (type tuple)
+"GET /game HTTP/1.1" 500 79850
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game HTTP/1.1" 200 38
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5
+"GET /stats HTTP/1.1" 200 2
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 53, in stats
+    Game.get_stats(n)
+                   ^
+NameError: name 'n' is not defined
+"GET /stats HTTP/1.1" 500 67137
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 53, in stats
+    Game.get_stats(n)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py", line 19, in get_stats
+    stats = Game.objects.all().order_by('-id')[-count:]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 431, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+"GET /stats HTTP/1.1" 500 74825
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 2
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\middleware\clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+"GET /stats HTTP/1.1" 500 67560
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\middleware\clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'headers'
+"GET /stats HTTP/1.1" 500 67560
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view semapp.views.stats didn't return an HttpResponse object. It returned None instead.
+"GET /stats HTTP/1.1" 500 69094
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view semapp.views.stats didn't return an HttpResponse object. It returned None instead.
+"GET /stats HTTP/1.1" 500 69094
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view semapp.views.stats didn't return an HttpResponse object. It returned None instead.
+"GET /stats HTTP/1.1" 500 69094
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view semapp.views.stats didn't return an HttpResponse object. It returned None instead.
+"GET /stats HTTP/1.1" 500 69094
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view semapp.views.stats didn't return an HttpResponse object. It returned None instead.
+"GET /stats HTTP/1.1" 500 69094
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view semapp.views.stats didn't return an HttpResponse object. It returned None instead.
+"GET /stats HTTP/1.1" 500 69094
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 10
+"GET /stats HTTP/1.1" 200 10
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 10
+"GET /stats HTTP/1.1" 200 10
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 1
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 4
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 24
+"GET /game HTTP/1.1" 200 39
+"GET /game HTTP/1.1" 200 39
+"GET /game HTTP/1.1" 200 39
+"GET /stats HTTP/1.1" 200 24
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats HTTP/1.1" 200 24
+"GET /stats?n=3 HTTP/1.1" 200 24
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats?n=3 HTTP/1.1" 200 24
+"GET /stats?n=3 HTTP/1.1" 200 24
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 54, in stats
+    vooc = Game.get_stats(n)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py", line 20, in get_stats
+    stats = Game.objects.all().order_by('-id')[:count]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 428, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+"GET /stats?n=3 HTTP/1.1" 500 76179
+Internal Server Error: /stats
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 54, in stats
+    vooc = Game.get_stats(int(n))
+           ^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\models.py", line 20, in get_stats
+    stats = Game.objects.all().order_by('-id')[:count]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 428, in __getitem__
+    or (k.stop is not None and k.stop < 0)
+                               ^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+"GET /stats?n=3 HTTP/1.1" 500 76189
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /stats?n=3 HTTP/1.1" 200 24
+"GET /stats?n=6 HTTP/1.1" 200 24
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /create_author
+"GET /create_author HTTP/1.1" 404 3450
+Internal Server Error: /author
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 61, in create_author
+    author = Author(name = f'sav{i}', last_name = f'kuz{i}',email = f'bis{i}@mail.ru', birthday =date.today())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Author() got unexpected keyword arguments: 'birthday'
+"GET /author HTTP/1.1" 500 74942
+Internal Server Error: /author
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py", line 61, in create_author
+    author = Author(name = f'sav{i}', last_name = f'kuz{i}',email = f'bis{i}@mail.ru', bday =date.today())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Author() got unexpected keyword arguments: 'birthday'
+"GET /author HTTP/1.1" 500 75071
+D:\GeekBrains\Framework_Django\Frame_Django\Sem_project\sem_project\semapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /author HTTP/1.1" 200 117

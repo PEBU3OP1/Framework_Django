@@ -1,12 +1,16 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Home page</title>
+    <title>
+        {% block title %}
+        Home page
+        {% endblock %}
+    </title>
 </head>
 <body>
+{% block content %}
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ea itaque laboriosam neque nihil odio provident quis quo tempore vitae.</p>
+{% endblock %}
 </body>
 </html>

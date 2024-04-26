@@ -435,3 +435,454 @@ Watching for file changes with StatReloader
 D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET /order/ HTTP/1.1" 200 27
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 148
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 162
+"GET /about/ HTTP/1.1" 200 162
+"GET /about/ HTTP/1.1" 200 165
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 165
+"GET /order HTTP/1.1" 301 0
+"GET /order/ HTTP/1.1" 200 16
+"GET /orders/2 HTTP/1.1" 301 0
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    return HttpResponse(orders.total_cost)
+                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'total_cost'
+"GET /orders/2/ HTTP/1.1" 500 67834
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 148
+"GET /order/ HTTP/1.1" 200 18
+"GET /orders/4 HTTP/1.1" 301 0
+"GET /orders/4/ HTTP/1.1" 200 0
+"GET /orders/4/ HTTP/1.1" 200 0
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/4/ HTTP/1.1" 200 0
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    print(orders.id)
+          ^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'id'
+"GET /orders/2/ HTTP/1.1" 500 68109
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    print(orders.id)
+          ^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'id'
+"GET /orders/2/ HTTP/1.1" 500 68106
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 16
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 55463)
+"GET /orders/2/ HTTP/1.1" 200 36
+"GET /orders/1/ HTTP/1.1" 200 0
+"GET /orders/1/ HTTP/1.1" 200 0
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    return HttpResponse(products.product_name)
+                        ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'product_name'
+"GET /orders/2/ HTTP/1.1" 500 67777
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    return HttpResponse(products.product_id)
+                        ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'product_name'
+"GET /orders/2/ HTTP/1.1" 500 67910
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    return HttpResponse(products.product_id)
+                        ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'product_id'
+"GET /orders/2/ HTTP/1.1" 500 67898
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 36
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 54
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 54
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    return render(request, 'orders.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders.html
+"GET /orders/2/ HTTP/1.1" 500 83619
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 52, in get_orders
+    return render(request, 'orders.html', {'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders.html
+"GET /orders/2/ HTTP/1.1" 500 83619
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 357
+"GET /orders/2/ HTTP/1.1" 200 357
+"GET /orders/2/ HTTP/1.1" 200 321
+"GET /orders/1/ HTTP/1.1" 200 235
+Watching for file changes with StatReloader
+Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 51, in get_orders
+    client = Client.objects.get(client_id=int(client_id))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client_id' into field. Choices are: address, email, id, name, order, phone, registered_date
+"GET /orders/1/ HTTP/1.1" 500 118662
+Internal Server Error: /orders/1/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 51, in get_orders
+    client = Client.objects.get(id=int(client_id))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client_id' into field. Choices are: address, email, id, name, order, phone, registered_date
+"GET /orders/1/ HTTP/1.1" 500 118648
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/1/ HTTP/1.1" 200 244
+"GET /orders/2/ HTTP/1.1" 200 326
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 412
+"GET /orders/2/ HTTP/1.1" 200 412
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 412
+"GET /orders/2/ HTTP/1.1" 200 412
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 412
+"GET /orders/2/ HTTP/1.1" 200 412
+"GET /orders/2/ HTTP/1.1" 200 412
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 56, in get_orders
+    products = Product.objects.filter(order__client_id = client_id,date_ordered__gte=datetime.now()-timedelta(days=7))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_ordered' into field. Choices are: added_date, description, id, order, price, product_name, quantity
+"GET /orders/2/ HTTP/1.1" 500 114055
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 16
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+"GET /orders/2/ HTTP/1.1" 200 16
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 32
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 55, in get_orders
+    products = Product.objects.filter(order__client_id = client_id,date_ordered__gte=datetime.now()-timedelta(days=7))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_ordered' into field. Choices are: added_date, description, id, order, price, product_name, quantity
+"GET /orders/2/ HTTP/1.1" 500 114656
+Internal Server Error: /orders/2/
+Traceback (most recent call last):
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py", line 55, in get_orders
+    products = Product.objects.filter(order__client_id = client_id,order__date_ordered__gte=datetime.now()-timedelta(days=7))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\Framework_Django\Frame_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_ordered' into field. Choices are: added_date, description, id, order, price, product_name, quantity
+"GET /orders/2/ HTTP/1.1" 500 114661
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 283
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/ HTTP/1.1" 200 412
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 148
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3158
+"GET /order/ HTTP/1.1" 200 18
+Not Found: /orders/
+"GET /orders/ HTTP/1.1" 404 3146
+Not Found: /orders/2/
+"GET /orders/2/ HTTP/1.1" 404 3152
+"GET /orders/2/week HTTP/1.1" 200 197
+"GET /orders/2/week HTTP/1.1" 200 197
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /orders/2/week HTTP/1.1" 200 197
+"GET /orders/2/month HTTP/1.1" 200 197
+"GET /orders/2/year HTTP/1.1" 200 283
+"GET /orders/2/year HTTP/1.1" 200 412
+"GET /orders/2/month HTTP/1.1" 200 326
+Not Found: /orders/2/
+"GET /orders/2/ HTTP/1.1" 404 3152
+"GET /orders/2/week HTTP/1.1" 200 326
+D:\GeekBrains\Framework_Django\Frame_Django\HW_project\HW_project\hwapp\views.py changed, reloading.
+Watching for file changes with StatReloader

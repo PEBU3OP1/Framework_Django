@@ -118,4 +118,4 @@ def update_product(request, product_id):
         form = ChoiceForm(
             instance=product
         )
-    return render(request, 'hwapp/upload_image.html', {'form': form})
+    return render(request, 'hwapp/update_product.html', {'form': form})

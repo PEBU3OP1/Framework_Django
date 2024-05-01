@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Загрузите изображение
+{% endblock %}
+
+
+{% block content %}
+<h2>Загрузите изображение</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Upload">
+
+</form>
+
+{% endblock %}

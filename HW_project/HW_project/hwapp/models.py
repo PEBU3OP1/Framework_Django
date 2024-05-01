@@ -50,6 +50,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     quantity = models.IntegerField()
     added_date = models.DateField(blank=True, null=True, default=date.today())
+    link_photo = models.CharField(max_length=1000, blank=True, null=True)
 
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)

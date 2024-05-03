@@ -42,8 +42,8 @@ class Client(models.Model):
     address = models.CharField(max_length=200)
     registered_date = models.DateField(blank=True, null=True)
     def __str__(self):
-        return f'Client_name = {self.name} Email = {self.email} phone = {self.phone} Address = {self.address} registered_date = {self.registered_date}'
-
+        # return f'Client_name = {self.name} Email = {self.email} phone = {self.phone} Address = {self.address} registered_date = {self.registered_date}'
+        return self.name
 class Product(models.Model):
     product_name = models.CharField(max_length=100)
     description = models.TextField()

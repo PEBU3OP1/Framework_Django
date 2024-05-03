@@ -5359,3 +5359,11 @@ Watching for file changes with StatReloader
 "GET /admin/hwapp/product/ HTTP/1.1" 200 12072
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 D:\GeekBrains\Framework_Django\Frame_Django\framework_django\HW_project\HW_project\hwapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 148
+"GET /admin/ HTTP/1.1" 200 8401
+"GET /admin/hwapp/product/ HTTP/1.1" 200 12085
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/hwapp/product/ HTTP/1.1" 302 0
+"GET /admin/hwapp/product/ HTTP/1.1" 200 12085
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342

@@ -46,13 +46,13 @@ class ClientAdmin(admin.ModelAdmin):
 
 
 @admin.register(Product)
-class ClientAdmin(admin.ModelAdmin):
+class ProductAdmin(admin.ModelAdmin):
     list_display = ('product_name', 'description', 'price', 'quantity', 'added_date','link_photo')
     list_per_page = 5
     search_fields = ['product_name']
     actions = [update_descr_by_client]
 
 @admin.register(Order)
-class ClientAdmin(admin.ModelAdmin):
+class OrderAdmin(admin.ModelAdmin):
     list_display = ('total_cost', 'date_ordered')
     list_per_page = 5
